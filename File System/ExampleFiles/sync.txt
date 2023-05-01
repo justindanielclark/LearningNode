@@ -1,0 +1,1 @@
+Some content Written By sync.js in the WritingFiles Directory!

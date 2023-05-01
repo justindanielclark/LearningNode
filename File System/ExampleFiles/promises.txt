@@ -1,0 +1,1 @@
+appended from promise.js in Writing_Files/Append/promise.js
