@@ -1,13 +1,13 @@
-const fs = require("fs/promises");
+import { readFile } from "fs/promises";
 
-async function example() {
-  try {
-    const data = await fs.readFile("./File System/ExampleFiles/someText.txt", {
-      encoding: "utf8",
-    });
+readFile("./File System/ExampleFiles/someText.txt", { encoding: "utf-8" })
+  .then((data) => {
     console.log(data);
-  } catch (err) {
-    console.log(err);
-  }
-}
-example();
+    throw new Error("I threw an error!");
+  })
+  .catch((err) => {
+    console.error(err);
+  })
+  .finally(() => {
+    console.log("finally has run");
+  });

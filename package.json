@@ -8,5 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-	"type": "module"
+  "type": "module",
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "nodemailer": "^6.9.1"
+  }
 }

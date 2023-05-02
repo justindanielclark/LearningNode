@@ -1,0 +1,32 @@
+Vanlife:
+- Vacation Van Rental Service for Users/Hosts
+- React, Typescript, Tailwind. Heavy use of React Router dom and MirageJS to fake a backend
+- Anticipating implementing UserAuth
+- "live": https://vanlife-xi.vercel.app/
+- "github": https://github.com/justindanielclark/vanlife
+Dom5Army Builder
+- Database parser to build config/mod files for the game Dominions 5 in a rapid pace
+- "live": https://vercel.com/justindanielclark/dom5-army-builder
+- "github": https://github.com/justindanielclark/dom5ArmyBuilder
+DummyJSONStore
+- Store Page
+- React, Typescript, Tailwind.
+- Library: ReactRouterDom, Jest, React Testing Library
+- "live": https://vercel.com/justindanielclark/shopping-cart
+- "github": https://vercel.com/justindanielclark/shopping-cart
+Battleship
+- Mimic of NES era 16 bit games built using CanvasJS, fully responsive, Typescript
+- Library: Jest
+- "live": "https://justindanielclark.github.io/battleship/",
+- "github": "https://github.com/justindanielclark/battleship"
+TODO
+- Vanilla JS with Tailwind
+- Libary: LocalStorage used to hold Todos
+- "live": "https://justindanielclark.github.io/ToDoList/",
+- "github": "https://github.com/justindanielclark/ToDoList"
+WeatherApp
+- Weekly weather lookup on city/area name or coords.
+- VanillaJS with Tailwind
+-"live": "https://justindanielclark.github.io/Weather/",
+-"github": "https://github.com/justindanielclark/Weather"
+
